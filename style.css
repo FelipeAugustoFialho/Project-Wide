@@ -1,0 +1,134 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 14px;
+    font-weight: 400;
+    color: #17233D;
+    margin-top: 47px;
+    margin-left: 42px;
+    word-spacing: 36px;
+}
+
+.login {
+    word-spacing: 0;
+}
+
+.sign-up {
+    word-spacing: 0;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+
+    background: #6FBF44;
+    color: white;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    margin-left: 85px;
+    display: inline-block;
+    margin-right: 85px;
+
+}
+
+.texto {
+
+    display: inline-block;
+    margin-right: 85px;
+    margin-top: 88px;
+
+}
+
+h1 {
+
+    font-size: 62px;
+    color: #161A49;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    width: 493px;
+}
+
+p {
+    width: 493px;
+    color: #4B505A;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+
+
+}
+
+.learn {
+    font-weight: 500px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #6FBF44;
+
+}
+
+@media (max-width:600px) {
+    .buttons {
+        display: none;
+    }
+
+    .login {
+        display: none;
+
+    }
+
+    .sign-up {
+        margin-left: 200px;
+        margin-top: 0;
+        width: 101px;
+        height: 45px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        border-radius: 6px;
+        border: 1px solid #4CB538;
+
+        background: #6FBF44;
+
+
+
+    }
+
+    img {
+        width: 350px;
+        height: 300px;
+        margin: 25px;
+        
+
+    }
+
+    h1 {
+        width: 355px;
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 0px;
+        
+
+    }
+
+    p {
+        width: 355px;
+        margin-left: 30px;
+    }
+
+    .learn {
+        margin-left: 140px;
+
+
+    }
+}
